@@ -47,6 +47,7 @@
 		843B9BCA1EF2F746005F9275 /* TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843B9BCE1EF2F746005F9275 /* TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialUITests.swift; sourceTree = "<group>"; };
 		843B9BD01EF2F746005F9275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843B9BDC1EF30770005F9275 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		843B9BA21EF2F745005F9275 = {
 			isa = PBXGroup;
 			children = (
+				843B9BDC1EF30770005F9275 /* README.md */,
 				843B9BAD1EF2F745005F9275 /* Tutorial */,
 				843B9BC21EF2F746005F9275 /* TutorialTests */,
 				843B9BCD1EF2F746005F9275 /* TutorialUITests */,
