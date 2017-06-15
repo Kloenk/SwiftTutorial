@@ -64,6 +64,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ll3-wi-xRI">
                                         <rect key="frame" x="0.0" y="50.5" width="135" height="30"/>
                                         <state key="normal" title="Hello for the world!!"/>
+                                        <connections>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M7N-ow-Vbj"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -74,7 +77,6 @@
                         <outlet property="NameTextField" destination="leu-5K-r6e" id="imD-oU-Qbf"/>
                         <outlet property="mealNameLabel" destination="0h6-b1-p9H" id="doU-aG-edX"/>
                         <outlet property="searchDisplayController" destination="JBQ-C5-heP" id="3B8-3o-saR"/>
-                        <outlet property="setDefaultLabelText" destination="ll3-wi-xRI" id="Ll2-ib-BsF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -14,7 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var mealNameLabel: UILabel!
     
     //MARK: Actions
-    @IBOutlet weak var setDefaultLabelText: UIButton!
+    
+    @IBAction func setDefaultLabelText(_ sender: Any) {
+        mealNameLabel.text = "Hallo Welt!"
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
