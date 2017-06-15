@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Tutorial
 //
-//  Created by admin on 15.06.17.
+//  Created by Finn Behrens on 15.06.17.
 //  Copyright © 2017 Learning. All rights reserved.
 //
 
