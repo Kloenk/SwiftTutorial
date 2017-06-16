@@ -46,11 +46,11 @@
                                 </connections>
                             </searchBar>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="leu-5K-r6e">
-                                <rect key="frame" x="110" y="299" width="145" height="80.5"/>
+                                <rect key="frame" x="110" y="299" width="148.5" height="80.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Hallo Welt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0h6-b1-p9H">
-                                        <rect key="frame" x="0.0" y="0.0" width="77.5" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Hallo Welt tutorial   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0h6-b1-p9H">
+                                        <rect key="frame" x="0.0" y="0.0" width="148.5" height="20.5"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -74,7 +74,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="NameTextField" destination="leu-5K-r6e" id="imD-oU-Qbf"/>
+                        <outlet property="TextInputField" destination="xmZ-fM-JBW" id="WKh-Cc-UCW"/>
                         <outlet property="mealNameLabel" destination="0h6-b1-p9H" id="doU-aG-edX"/>
                         <outlet property="searchDisplayController" destination="JBQ-C5-heP" id="3B8-3o-saR"/>
                     </connections>
